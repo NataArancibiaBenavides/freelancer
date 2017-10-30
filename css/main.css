@@ -4,8 +4,8 @@
 }
 body{
 
-    font-family: 'Montserrat', sans-serif;
-
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Lato', sans-serif;
 }
 
 .Inicio {
@@ -32,6 +32,7 @@ body{
 	text-decoration: none;
     
 }
+
 .Inicio li{
 	float:right;
 	margin-top: 40px;
@@ -41,6 +42,13 @@ body{
 	text-align: right;
 
 }
+
+.Inicio a:active{
+
+	color:#2C3E50;
+	background:#2C3E50;
+}
+
 header.bajada{
 	position: relative;
 	bottom:0px;
@@ -80,19 +88,21 @@ header.bajada h2{
 	left:370px;
 }	
 	
-}
+
 .bajada.fa.fa-star{
 	font-size:100px;
+	background-color:#18BC9C; 
 }
 
 
-.fa-star:before{
-	position:absolute;
+ .fa-star:before {
+	position: absolute;
 	color:#FFF;
 	top:440px;
 	left: 720px;
 	font-size:40px;
 }
+   
  .portafolio {
  	position: relative;
 	bottom:0px;
@@ -103,8 +113,6 @@ header.bajada h2{
 	width:100%;
 	height: 700px;
  }
-
-
 
 .portafolio h1{
 
@@ -132,7 +140,6 @@ header.bajada h2{
 	height: 250px;
 	margin:20px;
 	margin-top:200px;
-	
 
 }
 .imagen3 img{
@@ -218,48 +225,222 @@ font-size:20px;
 
 .fa-fa-download{
 	font-size: 50px;
+	padding: 10px;
 }
 .fa-download{
 
 	position: absolute;
 	top:400px;
 	left:650px;
-	color:#fff;
+	color:#FFF;
 	border: 2px solid #fff;
 	font-size: 40px;
 }
 .Contacto{
+
  	position: relative;
- 	top:100px;
+ 	top:250px;
 	bottom:0px;
-	left:0px;
-	background:#fff;
-	background-position: center;
-	background-size: 100%;
+	left:400px;
 	width:100%;
-	height: 700px;
+	height: 500px;
  }
 
+ form.contacto{
+ 	float:left;
+ 	left: 300px;
+
+
+
+ }
  .Contacto h1{
- 	position: absolute;
+
  	font-size: 30px;
  	color:#3C3737;
  	left: 600px;
  	top:100px;
-
- }
- .Contacto ul{
- 	position: absolute;
- 	top:200px;
+ 	margin-top: 30px;
 
  }
 
-.Contacto li{
-	
+ [type=text] {
+
+  margin: 0 auto;
+  width: 40%;
+  border: 0;
+  margin-top: 40px;
+  border-bottom: 1px solid #DDD4D4;
+  line-height: 30px;  
+  font-size: 1em;
+  
+}
+ 
+[type='text']:focus {
+  outline: none;
+  border-color: #53CACE;
+}
+.send h2 {
+
+	position: absolute;
+	margin-top:150px;
+	margin-left: 400px;
+	text-align: center;
+	color: #fff;
+	background-color:#18BC9C;
 	font-size: 20px;
-	color:#868686;
-	margin-left: 500px;
-	margin-top: 50px;
+	width: 70px;
+	height:30px; 
+	border-radius: 3px;
+}
+.footer {
+	position: relative;
+	top:300px;
+	left:0px;
+	background:#2C3E50;
+	background-position: center;
+	background-size: 100%;
+	width:100%;
+	height: 300px;
+}
+
+.tabla1 ul{
+
+	float: left;
+	top:100px;
 	list-style: none;
+   	padding: 0;
+	margin-left:200px;
+	margin-top:80px;
+	line-height:30px;
 
 }
+.tabla1 li{
+
+	top:150px;
+	color: #fff;
+	
+}
+.tabla2 ul{
+
+	float: left;
+	top:100px;
+	list-style: none;
+   	padding: 0;
+	margin-left:200px;
+	margin-top:80px;
+	line-height:30px;
+
+}
+.tabla2 li{
+
+	top:150px;
+	color: #fff;
+	
+}
+
+
+.fa.fa-facebook{
+
+ 	position: absolute;
+    display: inline-block;
+    font-size:25px;	
+    color: #fff;
+	width: 100px;
+	height: 100px;
+	left: 465px;
+	top:118px;
+}
+.circulo2{
+	position: absolute;
+	border: 2px solid white;
+    border-radius: 50%;
+    color: #fff;
+	width: 40px;
+	height: 40px;
+	left: 450px;
+	top:110px;
+}
+
+.fa.fa-google-plus-official{
+
+ 	position: absolute;
+    display: inline-block;
+    font-size:25px;	
+    color: #fff;
+	width: 100px;
+	height: 100px;
+	left: 505px;
+	top:118px;
+}
+
+.circulo3 {
+
+	position: absolute;
+	border: 2px solid white;
+    border-radius: 50%;
+    color: #fff;
+	width: 40px;
+	height: 40px;
+	left: 495px;
+	top:110px;
+}
+
+ooooo
+
+.fa.fa-twitter{
+
+ 	position: absolute;
+    display: inline-block;
+    font-size:25px;	
+    color: #fff;
+	width: 100px;
+	height: 100px;
+	left: 548px;
+	top:118px;
+}
+
+.circulo4 {
+
+	position: absolute;
+	border: 2px solid white;
+    border-radius: 50%;
+    color: #fff;
+	width: 40px;
+	height: 40px;
+	left: 540px;
+	top:110px;
+}
+
+
+
+.tabla3 ul{
+
+	float: left;
+	top:100px;
+	list-style: none;
+   	padding: 0;
+	margin-left:200px;
+	margin-top:80px;
+	line-height:30px;
+
+}
+
+.tabla3 h1{
+	font-size: 20px;
+
+
+}
+
+.tabla3 span{
+	color:#18BC9C;
+}
+.tabla3 li{
+
+	top:150px;
+	color: #fff;
+	
+}
+
+
+
+
