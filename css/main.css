@@ -241,23 +241,21 @@ font-size:20px;
  	position: relative;
  	top:250px;
 	bottom:0px;
-	left:400px;
+	left:200px;
 	width:100%;
 	height: 500px;
  }
 
  form.contacto{
  	float:left;
- 	left: 300px;
-
-
-
+ 	
  }
+ 
  .Contacto h1{
 
  	font-size: 30px;
  	color:#3C3737;
- 	left: 600px;
+ 	left: 500px;
  	top:100px;
  	margin-top: 30px;
 
@@ -276,8 +274,8 @@ font-size:20px;
 }
  
 [type='text']:focus {
-  outline: none;
-  border-color: #53CACE;
+   outline: none;
+   border-color: #53CACE;
 }
 .send h2 {
 
@@ -347,7 +345,7 @@ font-size:20px;
     color: #fff;
 	width: 100px;
 	height: 100px;
-	left: 465px;
+	left: 521px;
 	top:118px;
 }
 .circulo2{
@@ -357,7 +355,7 @@ font-size:20px;
     color: #fff;
 	width: 40px;
 	height: 40px;
-	left: 450px;
+	left: 510px;
 	top:110px;
 }
 
@@ -369,7 +367,7 @@ font-size:20px;
     color: #fff;
 	width: 100px;
 	height: 100px;
-	left: 505px;
+	left: 575px;
 	top:118px;
 }
 
@@ -381,11 +379,9 @@ font-size:20px;
     color: #fff;
 	width: 40px;
 	height: 40px;
-	left: 495px;
+	left: 565px;
 	top:110px;
 }
-
-ooooo
 
 .fa.fa-twitter{
 
@@ -395,8 +391,8 @@ ooooo
     color: #fff;
 	width: 100px;
 	height: 100px;
-	left: 548px;
-	top:118px;
+	left: 631px;
+	top:119px;
 }
 
 .circulo4 {
@@ -407,11 +403,56 @@ ooooo
     color: #fff;
 	width: 40px;
 	height: 40px;
-	left: 540px;
+	left: 620px;
 	top:110px;
 }
 
+.fa.fa-linkedin{
 
+ 	position: absolute;
+    display: inline-block;
+    font-size:25px;	
+    color: #fff;
+	width: 100px;
+	height: 100px;
+	left: 681px;
+	top:119px;
+}
+
+.circulo5 {
+
+	position: absolute;
+	border: 2px solid white;
+    border-radius: 50%;
+    color: #fff;
+	width: 40px;
+	height: 40px;
+	left: 670px;
+	top:110px;
+}
+.fa.fa-dribbble{
+
+ 	position: absolute;
+    display: inline-block;
+    font-size:25px;	
+    color: #fff;
+	width: 100px;
+	height: 100px;
+	left: 731px;
+	top:119px;
+}
+
+.circulo6 {
+
+	position: absolute;
+	border: 2px solid white;
+    border-radius: 50%;
+    color: #fff;
+	width: 40px;
+	height: 40px;
+	left: 720px;
+	top:110px;
+}
 
 .tabla3 ul{
 
@@ -439,6 +480,14 @@ ooooo
 	top:150px;
 	color: #fff;
 	
+}
+
+div.fa.fa-copyright{
+	position: absolute;
+	color:#fff;
+	top:400px;
+	left:500px;
+
 }
 
 
